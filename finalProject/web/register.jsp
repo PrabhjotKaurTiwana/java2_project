@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Online Drug Store</title>
   
-   <link rel="stylesheet" href="home.css" type="text/css">
+   <link rel="stylesheet" href="css/home.css" type="text/css">
    <script src="home.js"></script>
    <script src="code.jquery.com/jquery-1.10.2.min.js"></script>
    
@@ -88,8 +88,8 @@ function dil(form)
           <li ><a href="home.jsp">Home</a></li>
           <li class="current"><a href="register.jsp">Register</a></li>
           <li><a href="login.jsp">Login</a></li>
-          <li><a href="projects.html">Medicines</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="projects.jsp">Medicines</a></li>
+          <li><a href="contact.jsp">Contact Us</a></li>
         </ul>
       </div><!--close menu-->
     </div><!--close menubar-->	
@@ -97,12 +97,6 @@ function dil(form)
     
 		<form role="form">
 			<h2>Please Sign Up</h2>
-
-
-
-
-
-
 
 			
 				<form name=F1 onSubmit="login.jsp" action="CreateServlet" >
